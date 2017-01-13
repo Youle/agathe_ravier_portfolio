@@ -1,0 +1,85 @@
+{
+	"projects": [
+		{
+			"title": "Diorbox",
+			"roles": [
+				"stratégie digitale",
+				"webdesign"
+			],
+			"id": "diorbox",
+			"year": "2016",
+			"richText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla",
+			"agency": "MAZARINE",
+			"mainColor": "#f5f1f0"
+		},
+		{
+			"title": "Dior Homme mobile",
+			"roles": [
+				"création du site mobile",
+				"wireframe et webdesign"
+			],
+			"id": "diorhomme",
+			"year": "2016",
+			"richText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla",
+			"agency": "MAZARINE"
+		},
+		{
+			"title": "Campagne fête des mères",
+			"roles": [
+				"direction artistique",
+				"création newsletters"
+			],
+			"id": "fete",
+			"year": "2016",
+			"richText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla",
+			"agency": "MAZARINE",
+			"mainColor": "#dcba8d"
+		},
+		{
+			"title": "Rouge Dior",
+			"roles": [
+				"retouche d'images",
+				"typographie"
+			],
+			"id": "rougedior",
+			"year": "2016",
+			"richText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla",
+			"agency": "MAZARINE",
+			"mainColor": "#bf2831"
+		},
+		{
+			"title": "Dior X Bella",
+			"protected": true,
+			"roles": [
+				"stratégie digitale",
+				"webdesign mobile",
+				"direction artistique"
+			],
+			"id": "bella",
+			"year": "2016",
+			"richText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla",
+			"agency": "MAZARINE"
+		},
+		{
+			"title": "Page Découvrir",
+			"roles": [
+				"création d’un template de page",
+				"webdesign"
+			],
+			"id": "decouvrir",
+			"year": "2016",
+			"richText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla",
+			"agency": "MAZARINE"
+		},
+		{
+			"title": "Appli Miss Dior",
+			"roles": [
+				"webdesign tablette"
+			],
+			"id": "missdior",
+			"year": "2016",
+			"richText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla",
+			"agency": "MAZARINE"
+		}
+	]
+}

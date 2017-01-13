@@ -1,0 +1,282 @@
+@font-face {
+	font-family: 'Goth';
+	src: url('../fonts/CenturyGothicStd.otf');
+}
+
+@font-face {
+	font-family: 'Caslon';
+	src: url('../fonts/BigCaslon-Medium.ttf');
+}
+
+body {
+	font-family: 'Goth';
+	font-size: 12px;
+	letter-spacing: 0.5px;
+}
+
+/** HEADER */
+
+#header {
+	width: 1200px;
+	margin: 50px auto;	
+	background-color: white;
+	color: #4c51e4;
+}
+
+#header>.headerContainer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.headerContainer > * {
+	background-color: white;
+	padding: 0 20px;
+}
+
+#header>.headerBlueBackground{
+	background-color: rgb(31, 37, 195);
+	width: 100%;
+	height: 1px;
+	margin-top: -12px
+}
+
+.headerPart-Title {
+	cursor: pointer;
+}
+
+.headerTitle-slashSeparator {
+	padding: 0 12px;	
+}
+
+.headerPart-Contact {
+	cursor: pointer;
+	padding: 0 20px 0 0;
+}
+
+.headerPart-Social {
+	display: flex;
+	padding: 0 0 0 20px;
+}
+
+.headerPart-Social .socialIcon {
+	width: 20px;
+	height: 20px;
+	margin: 0 9px;
+	cursor: pointer;
+}
+
+.socialIcon.linkedin {
+	background-image: url('../img/linkedin.jpg');
+}
+
+.socialIcon.facebook {
+	background-image: url('../img/facebook.jpg');
+}
+
+.socialIcon.instagram {
+	background-image: url('../img/instagram.jpg');
+}
+
+.socialIcon.pinterest {
+	background-image: url('../img/pinterest.jpg');
+}
+
+/** CONTENT */
+#content {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/** GLOBAL */
+.subtitle {
+	letter-spacing: 2px;
+	color: #4c51e4;
+	text-transform: uppercase;
+}
+
+.noColor {
+	color: rgb(0, 0, 0);
+}
+
+/** INDEX */
+#BigHello {
+	font-family: 'Caslon';
+	font-size: 180px;
+	left: 50%;
+	top: 85px;
+	position: absolute;
+	pointer-events: none;
+}
+
+#BigHello > div {
+	margin-left: -50%;
+}
+
+#ProjectList {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 150px;
+}
+
+.ProjectItem {
+	margin-bottom: 110px;
+}
+
+.ProjectThumbnail {
+	width: 370px;
+	height: 370px;
+	margin: 15px 0;
+	cursor: pointer;
+	background-color: pink;
+}
+
+.ProjectThumbnail:hover {
+	background-image: url('../img/eye.gif') !important;
+	background-color: rgb(31, 37, 195);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.ProjectThumbnail-Role {
+	margin-top: 6px;
+}
+
+/** PROJECT PAGE */
+
+/** HEADER */
+
+.ProjectPage {
+	line-height: 20px;
+}
+
+.ProjectPage h1 {
+	font-family: 'Caslon';
+	font-size: 65px;
+	font-weight: normal;
+	-webkit-margin-before: 0.3em;
+    -webkit-margin-after: 0.3em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.ProjectHeader {
+	width: 1200px;
+	margin: 65px auto;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.ProjectDetails, .ProjectRichText {
+	width: 520px;
+	margin: 0 auto;
+}
+
+.ProjectDetails {
+	display: flex;
+	justify-content: space-between;
+}
+
+.ProjectDetailPart-key {
+	margin: 15px 0;
+}
+
+.ProjectType, .ProjectDetailPart-key {
+	text-transform: uppercase;
+	color: #777;
+}
+
+.ProjectRichText {
+	text-align: justify;
+	margin-top: 30px;
+}
+
+.ProjectCover {
+	width: 1200px;
+}
+
+.ProjectPart {
+	margin-top: 50px; 
+}
+
+.ProjectPart:not(.noCenter) {
+	text-align: center;	
+}
+
+.shadowed {
+	box-shadow: 0 0 29px rgba(0, 0, 0, 0.11);
+	margin: 29px;
+}
+
+.bordered {
+	border: 1px solid #e1e2e9;
+}
+
+.ProjectPart.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+#NotFound {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#NotFound .errNumber {
+	font-family: 'Caslon';
+	font-size: 120px;
+}
+
+#NotFound .errExplanation {
+
+}
+
+.ProtectedPage {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.ProtectedPage > * {
+	margin-top: 20px;
+}
+
+.ProtectedPage > input {
+	margin: 20px auto;
+	width: 300px;
+	padding: 12px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.ProtectedPage > input:focus {
+	outline: #4c51e4 auto 5px;
+}
+
+.ProtectedPage > input.wrong {
+	outline: red auto 5px;
+}
+
+.Button {
+	cursor: pointer;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	text-align: center;
+	padding: 4px 8px;
+}
+
+.Button:hover {
+	border: 1px solid #aaa;
+}
+
+#footer {
+	margin: 60px auto;
+	
+	width: 1200px;
+}
+
+.FooterThumbnails {
+	display: flex;
+	justify-content: space-between;
+}
