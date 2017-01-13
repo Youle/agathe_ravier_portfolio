@@ -31,7 +31,8 @@ define([
 					agency: this.model.get('agency'),
 					richText: this.model.get('richText'),
 					projectTemplate: this.projectTpl,
-					mainColor: this.model.get('mainColor') || '#ffffff'
+					mainColor: this.model.get('mainColor') || '#ffffff',
+					coverName: this.model.get('cover') || 'cover.jpg'
 				});
 
 				return mainTpl;

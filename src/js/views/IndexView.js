@@ -4,10 +4,11 @@ define([
 	'jquery',
 	'router',
 	'views/ProjectSuggestFooterView',
+	'views/ContactView',
 	'../collections/ProjectsCollection',
 	'text!../../templates/index.tpl',
 	'text!../../templates/ProjectThumbnail.tpl'
-], function(Backbone, _, $, Router, FooterView, ProjectsCollection, Template, ThumbnailTemplate) {
+], function(Backbone, _, $, Router, FooterView, ContactView, ProjectsCollection, Template, ThumbnailTemplate) {
 	var indexView = Backbone.View.extend({
 
 		el: _.template(Template),
@@ -26,7 +27,13 @@ define([
 			this.collection.each(function(elem, k) {
 				this.addProject(elem);
 			}, this);
+			var dif = this.collection.length % 3 - 1
+			if(dif) {
+				this.$el.find('#ProjectList').append(this.getProjectPlaceholder())
+			}
 			$('#content').html(this.$el);
+			console.log(new ContactView())
+			$('#footer').html(new ContactView().$el)
 		},
 
 		addProject: function(model) {
@@ -36,6 +43,10 @@ define([
 				roles: model.getStringRoles()
 			}));
 			this.$el.find('#ProjectList').append($elem);
+		},
+
+		getProjectPlaceholder: function() {
+			return $('<div>').addClass('ProjectItem')
 		},
 
 		onThumbnailClicked: function(e) {

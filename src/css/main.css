@@ -121,6 +121,8 @@ body {
 
 .ProjectItem {
 	margin-bottom: 110px;
+	width: 370px;
+	min-height: 20px
 }
 
 .ProjectThumbnail {
@@ -279,4 +281,34 @@ body {
 .FooterThumbnails {
 	display: flex;
 	justify-content: space-between;
+}
+
+
+@keyframes BorderTransitionArtcurial {
+    0%   {border-color: #FDDAD5;}
+    20%  {border-color: #FFECB4;}
+    40%  {border-color: #B4C9FF;}
+    60% {border-color: #B4FFCB;}
+    80% {border-color: #F3F3F3;}
+    100% {border-color: #FDDAD5;}
+}
+
+/* The element to apply the animation to */
+.animated-border.artcurial {
+	animation: BorderTransitionArtcurial 10s linear 1s infinite alternate;
+    border: 1px solid #FDDAD5;
+}
+
+@keyframes BackgroundTransitionArtcurial {
+    0%   {background-color: #FDDAD5;}
+    20%  {background-color: #FFECB4;}
+    40%  {background-color: #B4C9FF;}
+    60% {background-color: #B4FFCB;}
+    80% {background-color: #F3F3F3;}
+    100% {background-color: #FDDAD5;}
+}
+
+#ProjectPage-artcurial .ProjectCover {
+	animation: BackgroundTransitionArtcurial 30s linear infinite alternate;
+    background-color: #FDDAD5;
 }
